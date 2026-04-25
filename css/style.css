@@ -43,6 +43,7 @@ body {
     color: var(--primary);
     line-height: 1.6;
     margin: 0;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4 {
@@ -470,7 +471,7 @@ img {
 
 /* Banner CTA */
 .banner-cta {
-    background: linear-gradient(rgba(0, 63, 107, 0.85), rgba(0, 63, 107, 0.85)), url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?q=80&w=2000');
+    background: linear-gradient(rgba(0, 63, 107, 0.85), rgba(0, 63, 107, 0.85)), url('https://firebasestorage.googleapis.com/v0/b/mwata-app.appspot.com/o/mwata%2Fmwata%2Fbuilder%2Fimages%2Fmw-93e6d1a1-c0eb-4370-99fc-00afe2464fad.png?alt=media&token=27ab9bc8-b7cc-445a-a9b3-f31a2e239aac%22');
     background-size: cover;
     background-position: center;
     padding: var(--space-xl) 0;
