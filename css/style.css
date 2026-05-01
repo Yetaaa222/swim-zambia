@@ -513,6 +513,22 @@ img {
     padding-top: 0;
 }
 
+/* Location */
+.location {
+    padding-top: 0;
+}
+
+.map-wrapper {
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--glass-border);
+}
+
+.map-wrapper iframe {
+    display: block;
+}
+
 /* Footer */
 .footer {
     padding-bottom: var(--space-xl);
